@@ -1,6 +1,6 @@
 async function getCaptions() {
 	try {
-		const data = await (await fetch('./assets/cc.vtt')).text();
+		const data = await (await fetch('../assets/cc.vtt')).text();
 
 		return data.split('\n\n').map((item) => {
 			const [number, timeRange, ...textParts] = item.split('\n').filter(Boolean);
