@@ -1,6 +1,4 @@
-import { updateTimerDisplay } from './yt.js';
-
-export function insertCaptions(obj) {
+function insertCaptionsYt(obj) {
 	const ccContainer = document.querySelector('.cc');
 	// prettier-ignore
 	ccContainer.innerHTML = Object.entries(obj).map(([key, ccItem]) => `

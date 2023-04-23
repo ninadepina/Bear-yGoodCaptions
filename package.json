@@ -1,0 +1,25 @@
+{
+  "name": "bear-ygoodcaptions",
+  "version": "1.0.0",
+  "description": "Marie is Deaf (with a capital 'D', which means she doesn't see her deafness as a disability). She was born deaf, and her native language is Dutch Sign Language. You'll understand that Marie experiences difficulty with tasks that heavily rely on sound.",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninadepina/Bear-yGoodCaptions.git"
+  },
+  "author": "Nina Vens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninadepina/Bear-yGoodCaptions/issues"
+  },
+  "homepage": "https://github.com/ninadepina/Bear-yGoodCaptions#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,7 +1,3 @@
-import { getCaptions } from '../getCaptions.js';
-import { toggleCaptions } from '../toggleCaptions.js';
-import { insertCaptions } from './insertCaptions.js';
-
 let player;
 
 window.onYouTubeIframeAPIReady = function () {
@@ -26,10 +22,10 @@ window.onYouTubeIframeAPIReady = function () {
 
 async function init() {
 	const cc = await getCaptions();
-	insertCaptions(cc);
+	insertCaptionsYt(cc);
 }
 
-export function updateTimerDisplay(cc) {
+function updateTimerDisplay(cc) {
 	cc.forEach((c) => toggleCaptions(cc.indexOf(c), c.start, c.end, Math.floor10(player.getCurrentTime(), -1)));
 
 	// 120.6 = length of video
