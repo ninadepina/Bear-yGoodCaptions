@@ -1,4 +1,6 @@
-import { getCaptions } from './getCaptions.js';
+import { getCaptions } from '../getCaptions.js';
+import { toggleCaptions } from '../toggleCaptions.js';
+import { insertCaptions } from './insertCaptions.js';
 
 let player;
 
@@ -27,26 +29,11 @@ async function init() {
 	insertCaptions(cc);
 }
 
-// prettier-ignore
-function insertCaptions(obj) {
-	const ccContainer = document.querySelector('.cc');
-	ccContainer.innerHTML = Object.entries(obj).map(([key, ccItem]) => `
-		<p class="p${key}">${ccItem.text.map(part => `<span>${part.text}</span>`).join('')}</p>
-		`).join('');
-	updateTimerDisplay(obj);
-}
-
-function updateTimerDisplay(cc) {
-	cc.forEach((c) => pTimes(cc.indexOf(c), c.start, c.end, Math.floor10(player.getCurrentTime(), -1)));
+export function updateTimerDisplay(cc) {
+	cc.forEach((c) => toggleCaptions(cc.indexOf(c), c.start, c.end, Math.floor10(player.getCurrentTime(), -1)));
 
 	// 120.6 = length of video
 	if (player.getCurrentTime() < 120.6) setTimeout(() => updateTimerDisplay(cc), 100);
-}
-
-function pTimes(num, startT, endT, curT) {
-	const curP = document.querySelector(`.p${num}`);
-	curP.classList.toggle('off', curT > endT);
-	curP.classList.toggle('on', curT > startT);
 }
 
 (function () {
