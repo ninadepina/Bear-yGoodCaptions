@@ -1,8 +1,9 @@
 # Other
 .DS_Store
+dist/
 
 # Dependency directories
-node_modules
+node_modules/
 
 # Vscode directories
 .vscode/
