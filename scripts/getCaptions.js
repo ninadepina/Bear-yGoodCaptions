@@ -1,4 +1,4 @@
-async function getCaptions() {
+export async function getCaptions() {
 	try {
 		const data = await (await fetch('../assets/cc.vtt')).text();
 
