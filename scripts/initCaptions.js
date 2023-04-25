@@ -1,13 +1,13 @@
 import { getCaptions } from './getCaptions.js';
 import { toggleCaptions } from './toggleCaptions.js';
-import { insertCaptionsVid } from './insertCaptions.js';
+import { insertCaptions } from './insertCaptions.js';
 
 const player = document.querySelector('#vid');
 player.addEventListener('loadedmetadata', init);
 
 async function init() {
 	const cc = await getCaptions();
-	insertCaptionsVid(cc);
+	insertCaptions(cc);
 	player.addEventListener('timeupdate', () => updateTimerDisplay(cc));
 }
 
