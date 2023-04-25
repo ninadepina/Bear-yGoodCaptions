@@ -38,10 +38,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 75rem;
+	max-width: 74rem;
 	min-height: 100vh;
 	margin: 0 auto;
-	padding: 5rem;
+	padding: 4rem;
 	font-family: var(--font-family);
 	font-size: var(--font-size);
 	color: var(--text-color);
@@ -69,6 +69,7 @@ main {
 
 .cc {
 	position: absolute;
+	height: 100%;
 	left: 0;
 	right: 0;
 	bottom: 2rem;
@@ -96,7 +97,6 @@ main {
 	opacity: 0;
 	transition: 0.05s;
 }
-
 .cc span {
 	width: fit-content;
 	margin: 0 auto;

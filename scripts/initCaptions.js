@@ -7,7 +7,6 @@ player.addEventListener('loadedmetadata', init);
 
 async function init() {
 	const cc = await getCaptions();
-	console.log(cc);
 	insertCaptionsVid(cc);
 	player.addEventListener('timeupdate', () => updateTimerDisplay(cc));
 }
