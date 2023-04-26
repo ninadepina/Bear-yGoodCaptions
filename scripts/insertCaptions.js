@@ -13,7 +13,7 @@ function insertCaptionsInit(obj) {
 export function insertCaptions(obj) {
 	// prettier-ignore
 	ccContainer.innerHTML = Object.entries(obj).map(([key, ccItem]) => `
-		<p class="p${key}">${ccItem.text.map(part => `<span>${part.text}</span>`).join('')}</p>
+		<p class="p${key} ${ccItem.class}">${ccItem.text.map(text => `<span>${text}</span>`).join('')}</p>
 		`).join('');
 	updateTimerDisplay(obj);
 }

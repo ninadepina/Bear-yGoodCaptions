@@ -1,17 +1,22 @@
 export async function getCaptions() {
 	try {
-		const data = await (await fetch('../assets/cc.vtt')).text();
+		const data = await (await fetch('/data/vtt.json')).json();
 
-		return data.split('\n\n').map((item) => {
-			const [number, timeRange, ...textParts] = item.split('\n').filter(Boolean);
+		return data.map(function (item) {
+			const [startTime, endTime] = item.vtt.split(' --> ').map(vttTimestampToSeconds);
 
-			const [startTime, endTime] = timeRange.split(' --> ').map(vttTimestampToSeconds);
+			item.text = item.text.map((text, index) => {
+				if (index === 0 && item.speaker !== null) {
+					return `${item.speaker}`.toUpperCase() + ': ' + `${text}`;
+				} else {
+					return text;
+				}
+			});
 
-			const text = textParts.map((part) => ({ text: part }));
-
-			return { number, start: startTime, end: endTime, text };
+			return { start: startTime, end: endTime, text: item.text, class: item.class };
 		});
-	} catch (error) {
+	} catch (err) {
+		console.error(err);
 		return false;
 	}
 }
