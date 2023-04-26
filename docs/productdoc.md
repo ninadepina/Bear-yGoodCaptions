@@ -8,7 +8,7 @@ Marie experiences a significant loss of nuance while watching a movie or a docum
 - Difficulty discerning who is saying what when multiple people are speaking.
 - Difficulty discerning the tone of the speaker (especially when the speaker is not on screen).
 
-## Meeting Marie
+## First meeting with Marie
 I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
 
 Some insights I gained from the meeting (read the full transcript [here](https://github.com/ninadepina/Bear-yGoodCaptions/blob/main/docs/interview.md)):
@@ -51,11 +51,11 @@ And using different fonts to emphasize emotions?
 ```
 
 ## Concept
-Ik merkte dat ik een beetje vast liep bij het bedenken van een concept. Dit kwam voornamelijk omdat ik graag iets zou willen maken dat Marie ook echt na dit project zou kunnen gebruiken. Dit is, en niet helemaal het idee, en daarnaast ook niet haalbaar.
+I noticed that I was getting a bit stuck when trying to come up with a concept. This was mainly because I wanted to create something that Marie could actually use after this project, which is not entirely feasible.
 
-Uiteindelijk heb ik gekozen om te gaan werken met een scene uit de serie 'The Bear'. Het idee is om:
-- Zichtbare indicatie toevoegen van waar achtergrond geluiden vandaan komen.
-- Closed captions te verbeteren.
-    - Namen toevoegen als de spreker niet te zien is in beeld.
-    - Achtergrond geluiden specifieker uitleggen.
-    - Spraaktoon(stotteren, etc.) toevoegen.
+In the end, I chose to work with a scene from the series 'The Bear'. The idea is to:
+- Add a visible indication of where background noises are coming from.
+- Improve closed captions.
+    - Add names when the speaker is not visible on screen.
+    - Provide more specific explanations of background noises.
+    - Add speech tone (stuttering, etc.).
