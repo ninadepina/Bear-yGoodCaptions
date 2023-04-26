@@ -88,13 +88,21 @@ main {
 	position: absolute;
 	left: 50%;
 	bottom: 0;
-	transform: translateX(-50%);
 	display: inline-flex;
 	flex-direction: column;
+	width: 100%;
 	color: var(--text-color-cc);
 	white-space: nowrap;
+	transform: translateX(-50%);
 	transition: 0.05s;
 }
+.cc p:is(.l1.r2) {
+	flex-direction: row;
+}
+.cc p:is(.r1.l2) {
+	flex-direction: row-reverse;
+}
+
 .cc p.on {
 	opacity: 1;
 }
@@ -111,6 +119,20 @@ main {
 	padding: 0.3rem 0.5rem;
 	background-color: var(--bg-color-cc);
 	border-radius: var(--border-radius-cc);
+}
+.cc p.l > span,
+.cc p.l1 > span:first-of-type {
+	margin: 0 auto 0 12%;
+}
+.cc p.l2 > span:last-of-type {
+	margin: 0 auto 0 12%;
+}
+.cc p.r > span,
+.cc p.r1 > span:first-of-type {
+	margin: 0 12% 0 auto;
+}
+.cc p.r2 > span:last-of-type {
+	margin: 0 12% 0 auto;
 }
 
 /* visuals */

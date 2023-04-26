@@ -5,15 +5,11 @@ export async function getCaptions() {
 		return data.map(function (item) {
 			const [startTime, endTime] = item.vtt.split(' --> ').map(vttTimestampToSeconds);
 
-			item.text = item.text.map((text, index) => {
-				if (index === 0 && item.speaker !== null) {
-					return `${item.speaker}`.toUpperCase() + ': ' + `${text}`;
-				} else {
-					return text;
-				}
-			});
+			item.text = item.text.map((text, index) =>
+				item.speaker && item.speaker[index] ? item.speaker[index].toUpperCase() + ': ' + text : text
+			);
 
-			return { start: startTime, end: endTime, text: item.text, classes: item.classes};
+			return { start: startTime, end: endTime, text: item.text, classes: item.classes };
 		});
 	} catch (err) {
 		console.error(err);
