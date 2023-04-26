@@ -33,8 +33,8 @@
 	--border-radius-cc: 0.15rem;
 
 	/* visuals */
-	--visual-gradient-x: linear-gradient(to right, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
-	--visual-gradient-y: linear-gradient(to bottom, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
+	--visual-gradient-x: linear-gradient(90deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
+	--visual-gradient-y: linear-gradient(180deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
 }
 
 body {
@@ -119,59 +119,65 @@ main {
 	text-transform: uppercase;
 }
 .cc p span {
+	--margin-cc-span: 0 auto;
+	
 	width: fit-content;
-	margin: 0 auto;
+	margin: var(--margin-cc-span);
 	padding: 0.3rem 0.5rem;
 	background-color: var(--bg-color-cc);
 	border-radius: var(--border-radius-cc);
 }
 
 .cc p.l > span,
-.cc p.l1 > span:first-of-type {
-	margin: 0 auto 0 12%;
-}
+.cc p.l1 > span:first-of-type,
 .cc p.l2 > span:last-of-type {
-	margin: 0 auto 0 12%;
+	--margin-cc-span: 0 auto 0 12%;
 }
 .cc p.r > span,
-.cc p.r1 > span:first-of-type {
-	margin: 0 12% 0 auto;
-}
+.cc p.r1 > span:first-of-type,
 .cc p.r2 > span:last-of-type {
-	margin: 0 12% 0 auto;
+	--margin-cc-span: 0 12% 0 auto;
 }
 
 /* ------------------------------ */
 /* visuals */
 .visual {
-	display: none;
+	--display-visual: none;
+	--width-visual: 2.2rem;
+	--height-visual: 100%;
+	--gradient-visual: var(--visual-gradient-x);
+
+	display: var(--display-visual);
 	position: absolute;
-	width: 2.2rem;
-	height: 100%;
-	background-image: var(--visual-gradient-x);
+	width: var(--width-visual);
+	height: var(--height-visual);
+	background-image: var(--gradient-visual);
 	z-index: 999;
 }
 .cc:has(p.visual_top.on:not(.off)) + .visual_top {
-	display: block;
-	width: 100%;
-	height: 2.2rem;
-	background-image: var(--visual-gradient-y);
+	--display-visual: block;
+	--width-visual: 100%;
+	--height-visual: 2.2rem;
+	--gradient-visual: var(--visual-gradient-y);
 }
 .cc:has(p.visual_bottom.on:not(.off)) + .visual_bottom {
-	display: block;
+	--display-visual: block;
+	--width-visual: 100%;
+	--height-visual: 2.2rem;
+	--gradient-visual: var(--visual-gradient-y);
+
 	bottom: 0;
-	width: 100%;
-	height: 2.2rem;
-	background-image: var(--visual-gradient-y);
 	transform: scaleY(-1);
 }
 .cc:has(p.visual_right.on:not(.off)) + .visual_right {
-	display: block;
+	--display-visual: block;
+
 	right: 0;
 	transform: scaleX(-1);
 }
 .cc:has(p.visual_left.on:not(.off)) + .visual_left {
-	display: block;
+	--display-visual: block;
+
 	left: 0;
 	transform: none;
 }
