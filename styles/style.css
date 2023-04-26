@@ -105,7 +105,6 @@ main {
 .cc p.shout {
 	text-transform: uppercase;
 }
-
 .cc p span {
 	width: fit-content;
 	margin: 0 auto;
@@ -118,7 +117,7 @@ main {
 .visual {
 	display: none;
 	position: absolute;
-	width: 1.98rem;
+	width: 2.2rem;
 	height: 100%;
 	background-image: var(--visual-gradient-x);
 	z-index: 999;
@@ -126,14 +125,14 @@ main {
 .cc:has(p.visual_top.on:not(.off)) + .visual_top{
 	display: block;
 	width: 100%;
-	height: 1.98rem;
+	height: 2.2rem;
 	background-image: var(--visual-gradient-y);
 }
 .cc:has(p.visual_bottom.on:not(.off)) + .visual_bottom {
 	display: block;
 	bottom: 0;
 	width: 100%;
-	height: 1.98rem;
+	height: 2.2rem;
 	background-image: var(--visual-gradient-y);
 	transform: scaleY(-1);
 }
