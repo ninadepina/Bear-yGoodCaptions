@@ -13,7 +13,7 @@ export async function getCaptions() {
 				}
 			});
 
-			return { start: startTime, end: endTime, text: item.text, class: item.class };
+			return { start: startTime, end: endTime, text: item.text, classes: item.classes};
 		});
 	} catch (err) {
 		console.error(err);
