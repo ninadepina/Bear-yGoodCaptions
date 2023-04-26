@@ -1,17 +1,3 @@
-# Bear-y Good Captions: Week 1
-Marie is Deaf (with a capital 'D', which means she doesn't see her deafness as a disability). She was born deaf, and her native language is Dutch Sign Language. You'll understand that Marie experiences difficulty with tasks that heavily rely on sound.
-
-Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral. How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
-
-## Assumptions
-- Difficulty experiencing the emotions conveyed by a film/series (as music is a significant component in that).
-- Difficulty discerning who is saying what when multiple people are speaking.
-- Difficulty discerning the tone of the speaker (especially when the speaker is not on screen).
-
-## Meeting Marie
-I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
-
-Some insights I gained from the meeting (read the full transcript [here](https://github.com/ninadepina/Bear-yGoodCaptions/blob/main/docs/interview.md)):
 ```plaintext
 Do you watch movies/series?
 -
@@ -27,7 +13,7 @@ What series do you watch?
 
 What do you think of closed captions of these streaming services, and which one has the best?
 -
-'That's a good question. I think Netflix. Let me start with the worst example: Dutch TV. The captions are always a surprise to me. In some series there are overlapping conversations between people, but then in the same serie but in another episode, it's clearly laid out. So why is it inconsistent? Also, names aren't clearly written out. 
+'That's a good question. I think Netflix. Let me start with the worst example: Dutch TV. The captions are always a surprise to me. In some series there are overlapping conversations between people, but then in the same serie but in another episode, it's clearly laid out. So why is it inconsistent? Also, names aren't clearly written out.
 
 The captions don't indicate who is speaking, and environmental sounds aren't taken into account. You might hear gunshots, but it's not reflected in the captions. So when I see characters reacting to something, I don't know what they're reacting to. I often have to guess who's speaking. Sometimes, establishing shots are shown, but then I have no idea who's speaking.
 
@@ -48,14 +34,26 @@ What if colors where used to emphasize emotions?
 And using different fonts to emphasize emotions?
 -
 'It's possible, it's fun to play around with and see if it works. I love reading, but I can imagine that if something is written in all caps, I perceive it as yelling.'
+
+
+
+What series/show/scene would you like us to use for prototyping?
+-
+'I watched something wrong recently. The Thousand Pound Sisters, don't watch it LOL. I'd like a scene where something is happening, otherwise it's boring. Um maybe, Disney's 'The Bear'. It's a great series, fairly short, about a chef in Chicago taking over his brother's restaurant. It consists of a lot of arguments and a lot of other situations. There's also certain music that apparently raises the stress level (friends told me), but that doesn't affect me.. Lots of arguments, lots of stress, lots happening.'
+
+
+
+What if there are distinctions between different types of music?
+-
+'Music in general, is very abstract to me. When I listen to someone playing an emotional song on the guitar, I may not fully comprehend the depth of feeling conveyed through the music, but I can appreciate the fact that it is an emotional piece. I was raised as a conscious listener. My parents are hearing, and as a child, I was never conscious of the sounds I made. Slamming doors, throwing pots. My parents instilled in me an awareness of the sounds around me, and I learned to be conscious of the noises I made. As a result, I tend to be mindful of loud sounds and their potential impact on those around me.
+
+I am aware that sounds evoke certain emotions. A while ago, my grandfather passed away, and when they were discussing the funeral, everyone suddenly started crying. I had no idea why, until they told me they were choosing the music. That was when I became aware that music can evoke such emotions.
+
+At another funeral, I was given the lyrics to songs played at a funeral and found them to be very sad. However, I later learned that the songs were actually meant to convey a sense of happiness. This experience helped me to understand that lyrics and melody can be quite distinct from one another.'
+
+
+
+And what would you think of experiencing music through vibrations?
+-
+'While I appreciate the value of feeling music through vibrations, I believe there is more to music than just the physical sensations it produces. Vibrations can provide a useful sensory input when combined with other elements of music, but they don't capture the full range of emotions and experiences that music can offer.'
 ```
-
-## Concept
-Ik merkte dat ik een beetje vast liep bij het bedenken van een concept. Dit kwam voornamelijk omdat ik graag iets zou willen maken dat Marie ook echt na dit project zou kunnen gebruiken. Dit is, en niet helemaal het idee, en daarnaast ook niet haalbaar.
-
-Uiteindelijk heb ik gekozen om te gaan werken met een scene uit de serie 'The Bear'. Het idee is om:
-- Zichtbare indicatie toevoegen van waar achtergrond geluiden vandaan komen.
-- Closed captions te verbeteren.
-    - Namen toevoegen als de spreker niet te zien is in beeld.
-    - Achtergrond geluiden specifieker uitleggen.
-    - Spraaktoon(stotteren, etc.) toevoegen.
