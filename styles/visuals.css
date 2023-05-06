@@ -1,0 +1,184 @@
+/* visuals container */
+.visuals {
+	position: relative;
+	pointer-events: none;
+}
+
+/* ------------------------------ */
+/* backlight */
+.backlight {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 37.125rem;
+	z-index: -1;
+}
+.backlight_color {
+	position: absolute;
+	width: var(--backlight-width);
+	height: var(--backlight-height);
+	-webkit-box-shadow: var(--backlight-color-transparent);
+	box-shadow: var(--backlight-color-transparent);
+	transition: box-shadow ease-in-out 250ms;
+}
+
+.cc:has(p.visual_top.on:not(.off)) + .visuals .backlight .backlight_color {
+	--backlight-width: 100%;
+	--backlight-height: 30%;
+
+	top: 0;
+	right: 0;
+	-webkit-box-shadow: var(--backlight-color-visible);
+	box-shadow: var(--backlight-color-visible);
+}
+.cc:has(p.visual_bottom.on:not(.off)) + .visuals .backlight .backlight_color {
+	--backlight-width: 100%;
+	--backlight-height: 30%;
+
+	top: calc(100% - 30%);
+	right: 0;
+	-webkit-box-shadow: var(--backlight-color-visible);
+	box-shadow: var(--backlight-color-visible);
+}
+.cc:has(p.visual_left.on:not(.off)) + .visuals .backlight .backlight_color {
+	--backlight-width: 30%;
+	--backlight-height: 100%;
+
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: var(--backlight-color-visible);
+	box-shadow: var(--backlight-color-visible);
+}
+.cc:has(p.visual_right.on:not(.off)) + .visuals .backlight .backlight_color {
+	--backlight-width: 30%;
+	--backlight-height: 100%;
+
+	top: 0;
+	right: 0;
+	-webkit-box-shadow: var(--backlight-color-visible);
+	box-shadow: var(--backlight-color-visible);
+}
+
+/* ------------------------------ */
+/* kitchen clattering visual */
+.kitchen_clattering_visual {
+	position: absolute;
+	width: 100%;
+	height: calc(100% - 4rem);
+	bottom: 4rem;
+	z-index: 999;
+}
+span[class^='sfx_'] {
+	opacity: 0;
+	position: absolute;
+	top: var(--top-sfx);
+	left: var(--left-sfx);
+	width: fit-content;
+	height: fit-content;
+	padding: 0.3rem 0.5rem;
+	font-size: 0.812rem;
+	background-color: var(--bg-color-cc);
+	border-radius: var(--border-radius-cc);
+}
+.cc:has(p.kitchen.on) + .visuals .kitchen_clattering_visual span[class^='sfx_'] {
+	animation: sfx-animation 3.23s;
+	animation-delay: var(--delay-sfx);
+}
+.cc:has(p.kitchen_end.on) + .visuals .kitchen_clattering_visual span[class^='sfx_'] {
+	animation: none;
+}
+
+span.sfx_1 {
+	--top-sfx: 92%;
+	--left-sfx: 54%;
+	--delay-sfx: 0.79s;
+}
+span.sfx_2 {
+	--top-sfx: 85%;
+	--left-sfx: 60.4%;
+	--delay-sfx: 1.32s;
+}
+span.sfx_3 {
+	--top-sfx: 90%;
+	--left-sfx: 68.6%;
+	--delay-sfx: 0.6s;
+}
+span.sfx_4 {
+	--top-sfx: 82%;
+	--left-sfx: 78%;
+	--delay-sfx: 1.54s;
+}
+span.sfx_5 {
+	--top-sfx: 91%;
+	--left-sfx: 86%;
+	--delay-sfx: 1.14s;
+}
+span.sfx_6 {
+	--top-sfx: 94%;
+	--left-sfx: 77%;
+	--delay-sfx: 0.9s;
+}
+span.sfx_7 {
+	--top-sfx: 102%;
+	--left-sfx: 73.5%;
+	--delay-sfx: 1.8s;
+}
+/* prettier-ignore */
+@keyframes sfx-animation {
+	0%, 50%, 100% { opacity: 0; }
+	20%, 75% { opacity: 1; }
+}
+
+/* ------------------------------ */
+/* shaking visual */
+.vid_ctr:has(.cc p.rage.on:not(.off)) {
+	animation: shaking 0.15s infinite;
+}
+/* prettier-ignore */
+@keyframes shaking {
+	0%, 50%, 100% { transform: rotate(0deg); }
+	25% { transform: rotate(0.25deg); }
+	75% { transform: rotate(-0.25deg); }
+}
+
+/* ------------------------------ */
+/* .visual {
+	--display-visual: none;
+	--width-visual: 2.2rem;
+	--height-visual: 100%;
+	--gradient-visual: var(--visual-gradient-x);
+
+	display: var(--display-visual);
+	position: absolute;
+	width: var(--width-visual);
+	height: var(--height-visual);
+	background-image: var(--gradient-visual);
+	z-index: 999;
+}
+.cc:has(p.visual_top.on:not(.off)) + .visual_top {
+	--display-visual: block;
+	--width-visual: 100%;
+	--height-visual: 2.2rem;
+	--gradient-visual: var(--visual-gradient-y);
+}
+.cc:has(p.visual_bottom.on:not(.off)) + .visual_bottom {
+	--display-visual: block;
+	--width-visual: 100%;
+	--height-visual: 2.2rem;
+	--gradient-visual: var(--visual-gradient-y);
+
+	bottom: 0;
+	transform: scaleY(-1);
+}
+.cc:has(p.visual_right.on:not(.off)) + .visual_right {
+	--display-visual: block;
+
+	right: 0;
+	transform: scaleX(-1);
+}
+.cc:has(p.visual_left.on:not(.off)) + .visual_left {
+	--display-visual: block;
+
+	left: 0;
+	transform: none;
+} */

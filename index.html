@@ -4,20 +4,39 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Bear-y Good Captions</title>
+		<title>CaptionWizard</title>
 		<!-- prettier-ignore -->
 		<link rel="icon" type="image/x-icon" href="/assets/favicon_lightmode.ico" media="(prefers-color-scheme: light)" />
 		<link rel="icon" type="image/x-icon" href="/assets/favicon_darkmode.ico" media="(prefers-color-scheme: dark)" />
 		<link rel="stylesheet" href="/styles/style.css" type="text/css" />
 
-		<script src="/dist/bundle.js" type="module" defer></script>
+		<script src="/scripts/getCaptions.js" type="module"></script>
+		<script src="/scripts/initCaptions.js" type="module"></script>
+		<script src="/scripts/insertCaptions.js" type="module"></script>
+		<script src="/scripts/toggleCaptions.js" type="module"></script>
+		<script src="/scripts/main.js" type="module"></script>
 	</head>
 	<body>
 		<main>
 			<div class="vid_ctr">
 				<div class="cc"></div>
-				<div class="visual visual_right visual_left visual_top visual_bottom"></div>
-				<video class="vid" id="vid" width="600" height="400" controls>
+				<div class="visuals">
+					<div class="backlight">
+						<div class="backlight_color"></div>
+					</div>
+					<div class="kitchen_clattering_visual">
+						<span class="sfx_1">[FWABOOM]</span>
+						<span class="sfx_2">[SMASH]</span>
+						<span class="sfx_3">[CLUNK]</span>
+						<span class="sfx_4">[SCHRBAM]</span>
+						<span class="sfx_5">[THOK]</span>
+						<span class="sfx_6">[CLANG]</span>
+						<span class="sfx_7">[CLATTER]</span>
+					</div>
+				</div>
+
+				<!-- <div class="visual visual_right visual_left visual_top visual_bottom"></div> -->
+				<video class="vid" id="vid" width="600" height="400" poster="/assets/thumbnail.png" controls muted>
 					<source src="/assets/scene.mp4" type="video/mp4" />
 				</video>
 			</div>

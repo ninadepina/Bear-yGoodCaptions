@@ -1,3 +1,7 @@
+@import url(./captions.css);
+@import url(./video.css);
+@import url(./visuals.css);
+
 @font-face {
 	font-family: 'Museo Sans';
 	src: url(../assets/MuseoSans.otf) format('opentype');
@@ -33,8 +37,14 @@
 	--border-radius-cc: 0.15rem;
 
 	/* visuals */
-	--visual-gradient-x: linear-gradient(90deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
-	--visual-gradient-y: linear-gradient(180deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
+	--backlight-color: 244, 185, 21;
+	/* --backlight-color: 255, 255, 255; */
+	--backlight-color-transparent: 0 0 60px 8px rgba(var(--backlight-color), 0);
+	--backlight-color-visible: 0 0 60px 8px rgba(var(--backlight-color), 0.6);
+	/* --backlight-color-visible: 0 0 60px 8px rgba(var(--backlight-color), 0.8); */
+
+	/* --visual-gradient-x: linear-gradient(90deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0));
+	--visual-gradient-y: linear-gradient(180deg, rgba(244, 185, 21, 0.4), rgba(244, 185, 21, 0)); */
 }
 
 body {
@@ -55,129 +65,4 @@ body {
 main {
 	width: 100%;
 	height: 100%;
-}
-
-/* ------------------------------ */
-/* video container */
-.vid_ctr {
-	position: relative;
-	height: 0;
-	padding-bottom: 56.25%; /* 16:9 */
-}
-
-/* video */
-.vid {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-/* ------------------------------ */
-/* captions container */
-.cc {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 2rem;
-	height: 100%;
-	text-align: center;
-	pointer-events: none;
-	z-index: 999;
-}
-
-/* captions */
-.cc p {
-	opacity: 0;
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	display: inline-flex;
-	flex-direction: column;
-	width: 100%;
-	color: var(--text-color-cc);
-	white-space: nowrap;
-	transform: translateX(-50%);
-	transition: 0.05s;
-}
-.cc p:is(.l1.r2) {
-	flex-direction: row;
-}
-.cc p:is(.r1.l2) {
-	flex-direction: row-reverse;
-}
-
-.cc p.on {
-	opacity: 1;
-}
-.cc p.off {
-	opacity: 0;
-	transition: 0.05s;
-}
-.cc p.shout {
-	text-transform: uppercase;
-}
-.cc p span {
-	--margin-cc-span: 0 auto;
-	
-	width: fit-content;
-	margin: var(--margin-cc-span);
-	padding: 0.3rem 0.5rem;
-	background-color: var(--bg-color-cc);
-	border-radius: var(--border-radius-cc);
-}
-
-.cc p.l > span,
-.cc p.l1 > span:first-of-type,
-.cc p.l2 > span:last-of-type {
-	--margin-cc-span: 0 auto 0 12%;
-}
-.cc p.r > span,
-.cc p.r1 > span:first-of-type,
-.cc p.r2 > span:last-of-type {
-	--margin-cc-span: 0 12% 0 auto;
-}
-
-/* ------------------------------ */
-/* visuals */
-.visual {
-	--display-visual: none;
-	--width-visual: 2.2rem;
-	--height-visual: 100%;
-	--gradient-visual: var(--visual-gradient-x);
-
-	display: var(--display-visual);
-	position: absolute;
-	width: var(--width-visual);
-	height: var(--height-visual);
-	background-image: var(--gradient-visual);
-	z-index: 999;
-}
-.cc:has(p.visual_top.on:not(.off)) + .visual_top {
-	--display-visual: block;
-	--width-visual: 100%;
-	--height-visual: 2.2rem;
-	--gradient-visual: var(--visual-gradient-y);
-}
-.cc:has(p.visual_bottom.on:not(.off)) + .visual_bottom {
-	--display-visual: block;
-	--width-visual: 100%;
-	--height-visual: 2.2rem;
-	--gradient-visual: var(--visual-gradient-y);
-
-	bottom: 0;
-	transform: scaleY(-1);
-}
-.cc:has(p.visual_right.on:not(.off)) + .visual_right {
-	--display-visual: block;
-
-	right: 0;
-	transform: scaleX(-1);
-}
-.cc:has(p.visual_left.on:not(.off)) + .visual_left {
-	--display-visual: block;
-
-	left: 0;
-	transform: none;
 }
