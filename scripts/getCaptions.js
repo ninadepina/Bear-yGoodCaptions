@@ -5,11 +5,23 @@ export async function getCaptions() {
 		return data.map(function (item) {
 			const [startTime, endTime] = item.vtt.split(' --> ').map(vttTimestampToSeconds);
 
-			item.text = item.text.map((text, index) =>
-				item.speaker && item.speaker[index] ? item.speaker[index].toUpperCase() + ': ' + text : text
-			);
+			item.text = item.text.map((text, index) => {
+				const matchAsterisk = text.match(/\*(.*?)\*/);
+				const matchBracket = text.match(/\[(.*?)\]/);
+				const matchUnderscore = text.match(/\_(.*?)\_/);
 
-			return { start: startTime, end: endTime, text: item.text, classes: item.classes };
+				if (matchAsterisk) text = text.replace(matchAsterisk[0], matchAsterisk[1].toUpperCase());
+
+				if (matchBracket) text = text.replace(matchBracket[0], '[' + matchBracket[1].toUpperCase() + ']');
+
+				if (matchUnderscore) text = text.replace(matchUnderscore[0], '<i>' + matchUnderscore[1] + '</i>');
+
+				return (item.speaker && item.speaker[index] ? item.speaker[index].toUpperCase() + ': ' : '') + text;
+			});
+
+			item.situation &&= `(${item.situation.toUpperCase()})`;
+			// prettier-ignore
+			return { start: startTime, end: endTime, text: item.text, situation: item.situation, classes: item.classes };
 		});
 	} catch (err) {
 		console.error(err);
