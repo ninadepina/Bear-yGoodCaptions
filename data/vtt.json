@@ -3,9 +3,9 @@
         "vtt": "00:00:00.000 --> 00:00:01.680",
         "speaker": [ "Carmy" ],
         "text": [
-            "Ebra!",
-            "Make sandwiches!"
+            "Ebra! Make sandwiches!"
         ],
+        "situation": "in the background",
         "classes": [ "shout", "visual_right" ]
     },
     {
@@ -14,6 +14,7 @@
         "text": [
             "Don't stop. making. fucking. sandwiches!"
         ],
+        "situation": null,
         "classes": [ "shout", "visual_right" ]
     },
     {
@@ -22,6 +23,7 @@
         "text": [
             "Yes, Chef."
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
@@ -30,22 +32,25 @@
         "text": [
             "I'm gonna make three sections, OK?"
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
         "vtt": "00:00:06.870 --> 00:00:09.313",
         "speaker": [ null ],
         "text": [
-            "They're going to be Wet, Hot, and Sweet, all right?"
+            "They're gonna be Wet, Hot, and Sweet, all right?"
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
         "vtt": "00:00:09.313 --> 00:00:10.980",
         "speaker": [ null ],
         "text": [
-            "I'm going to take green tape, make those sections."
+            "I'm gonna take green tape, make those sections."
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
@@ -54,6 +59,7 @@
         "text": [
             "Louie, I want you to get the sandwiches."
         ],
+        "situation": null,
         "classes": [ "visual_bottom" ]
     },
     {
@@ -62,6 +68,7 @@
         "text": [
             "Put them into the corresponding sections."
         ],
+        "situation": null,
         "classes": [ "visual_bottom" ]
     },
     {
@@ -70,6 +77,7 @@
         "text": [
             "OK, yeah yeah."
         ],
+        "situation": null,
         "classes": [ "visual_bottom" ]
     },
     {
@@ -78,32 +86,36 @@
         "text": [
             "Behind!"
         ],
+        "situation": null,
         "classes": [ "visual_bottom" ]
     },
     {
         "vtt": "00:00:15.100 --> 00:00:17.320",
         "speaker": [ null ],
         "text": [
-            "Yo, [INAUDIBLE], bag,",
+            "Yo, Sweeps, bag,",
             "Sharpie, label that shit."
         ],
+        "situation": null,
         "classes": [ "visual_bottom" ]
     },
     {
         "vtt": "00:00:17.320 --> 00:00:18.780",
-        "speaker": [ null ],
+        "speaker": [ null, "Sweeps" ],
         "text": [
             "Please, Chef.",
-            "- Yes, Chef."
+            "Yes, Chef."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:00:18.780 --> 00:00:19.580",
         "speaker": [ null ],
         "text": [
-            "[INAUDIBLE]"
+            "[inaudible]"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -113,6 +125,7 @@
             "Tina, fire every single",
             "chicken we have, please."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -121,6 +134,7 @@
         "text": [
             "OK?"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -130,6 +144,7 @@
             "Richie, do you even",
             "know how to do fries?"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -138,6 +153,7 @@
         "text": [
             "Yes."
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
@@ -146,6 +162,7 @@
         "text": [
             "And I know we need them now."
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
@@ -154,6 +171,7 @@
         "text": [
             "OK um.."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -162,6 +180,7 @@
         "text": [
             "Marcus, where are we on cakes?"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -170,7 +189,17 @@
         "text": [
             "Uh.. getting there."
         ],
+        "situation": null,
         "classes": [ "visual_top" ]
+    },
+    {
+        "vtt": "00:00:29.650 --> 00:00:30.450",
+        "speaker": [ null ],
+        "text": [
+            "Getting there?"
+        ],
+        "situation": null,
+        "classes": [ "l" ]
     },
     {
         "vtt": "00:00:30.450 --> 00:00:31.800",
@@ -178,22 +207,25 @@
         "text": [
             "What the fuck do you--"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
         "vtt": "00:00:31.800 --> 00:00:33.900",
         "speaker": [ null ],
         "text": [
-            "Marcus, what the fuck are you doing"
+            "Marcus, what the fuck are you doing--"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
         "vtt": "00:00:33.900 --> 00:00:35.050",
         "speaker": [ null ],
         "text": [
-            "still working on this shit?"
+            "--still working on this shit?"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -202,6 +234,7 @@
         "text": [
             "Yo, come on."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -210,7 +243,17 @@
         "text": [
             "Wha- what are you tripping for?"
         ],
+        "situation": null,
         "classes": [ "r" ]
+    },
+    {
+        "vtt": "00:00:36.560 --> 00:00:37.100",
+        "speaker": [ null ],
+        "text": [
+            "Come on?"
+        ],
+        "situation": null,
+        "classes": [ "l" ]
     },
     {
         "vtt": "00:00:36.760 --> 00:00:37.747",
@@ -218,14 +261,16 @@
         "text": [
             "The cakes are in the oven."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
-        "vtt": "00:00:37.747 --> 00:00:38.880",
+        "vtt": "00:00:37.447 --> 00:00:38.880",
         "speaker": [ null ],
         "text": [
             "What the fuck am I tripping for?"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -235,6 +280,7 @@
             "Are you here right now?",
             "It doesn't make a difference."
         ],
+        "situation": null,
         "classes": [ "r1", "l2" ]
     },
     {
@@ -243,6 +289,7 @@
         "text": [
             "There's four cakes. And still--"
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -251,6 +298,7 @@
         "text": [
             "Yeah, I was gonna to cut them."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -259,6 +307,7 @@
         "text": [
             "They're not even cut yet?"
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -267,6 +316,7 @@
         "text": [
             "Yeah, it's not that big of a deal."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -274,8 +324,9 @@
         "speaker": [ "Carmy" ],
         "text": [
             "What's this?",
-            "CHEF!"
+            "*Chef!*"
         ],
+        "situation": null,
         "classes": [ "visual_right" ]
     },
     {
@@ -284,58 +335,80 @@
         "text": [
             "Um, I am-- um"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:00:47.760 --> 00:00:49.183",
         "speaker": [ null ],
         "text": [
-            "I'm doing them",
-            "in five, basically."
+            "I'm doing them in five, basically."
         ],
+        "situation": null,
         "classes": [ null ]
+    },
+    {
+        "vtt": "00:00:49.183 --> 00:00:50.100",
+        "speaker": [ null ],
+        "text": [
+            "No no, stop."
+        ],
+        "situation": null,
+        "classes": [ "l" ]
     },
     {
         "vtt": "00:00:49.183 --> 00:00:50.550",
         "speaker": [ null ],
         "text": [
-            "I'm gonna to order of them in fives, so--",
-            "No no, stop."
+            "I'm gonna to order of them in fives, so--"
         ],
-        "classes": [ "r1", "l2" ]
+        "situation": null,
+        "classes": [ "r" ]
     },
     {
-        "vtt": "00:00:50.550 --> 00:00:51.270",
+        "vtt": "00:00:50.500 --> 00:00:51.270",
         "speaker": [ null ],
         "text": [
             "Everything."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
         "vtt": "00:00:51.270 --> 00:00:52.403",
         "speaker": [ null ],
         "text": [
-            "Fire everything right fucking now."
+            "Fire everything right fucking now!"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
-        "vtt": "00:00:52.403 --> 00:00:53.940",
+        "vtt": "00:00:52.103 --> 00:00:53.540",
         "speaker": [ null ],
         "text": [
             "OK, I'll fire everything now."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
-        "vtt": "00:00:53.940 --> 00:00:56.420",
+        "vtt": "00:00:53.540 --> 00:00:56.420",
         "speaker": [ null ],
         "text": [
-            "I just was-- um finishing talking to Marcus and I--",
+            "I just was-- um finishing talking to Marcus and I--"
+        ],
+        "situation": null,
+        "classes": [ "r" ]
+    },
+    {
+        "vtt": "00:00:54.540 --> 00:00:56.420",
+        "speaker": [ null ],
+        "text": [
             "Step out, step out."
         ],
-        "classes": [ "r1", "l2" ]
+        "situation": null,
+        "classes": [ "l" ]
     },
     {
         "vtt": "00:00:56.420 --> 00:00:57.080",
@@ -343,6 +416,7 @@
         "text": [
             "OK."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -351,6 +425,7 @@
         "text": [
             "I'm gonna to talk to Marcus."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -360,7 +435,8 @@
             "Step out-- get the fuck",
             "off my expo, Chef, now!"
         ],
-        "classes": [ "shout" ]
+        "situation": null,
+        "classes": [ "shout", "rage" ]
     },
     {
         "vtt": "00:01:01.230 --> 00:01:02.670",
@@ -368,7 +444,8 @@
         "text": [
             "Get the fuck off!"
         ],
-        "classes": [ "shout" ]
+        "situation": null,
+        "classes": [ "shout", "rage" ]
     },
     {
         "vtt": "00:01:02.670 --> 00:01:03.900",
@@ -376,6 +453,7 @@
         "text": [
             "Thank you!"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -385,7 +463,8 @@
             "We're firing-- 76",
             "beefs, 34 chickens--"
         ],
-        "classes": [ null ]
+        "situation": null,
+        "classes": [ "shout" ]
     },
     {
         "vtt": "00:01:08.160 --> 00:01:12.360",
@@ -394,7 +473,8 @@
             "OK-- 12 french fries,",
             "12 mash, fucking now!"
         ],
-        "classes": [ null ]
+        "situation": null,
+        "classes": [ "shout" ]
     },
     {
         "vtt": "00:01:12.360 --> 00:01:13.320",
@@ -402,6 +482,7 @@
         "text": [
             "Yes, chef."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -410,6 +491,7 @@
         "text": [
             "Thank you."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -418,6 +500,7 @@
         "text": [
             "Behind."
         ],
+        "situation": null,
         "classes": [ "visual_left" ]
     },
     {
@@ -426,7 +509,8 @@
         "text": [
             "Corner."
         ],
-        "classes": [ "visual_left" ]
+        "situation": null,
+        "classes": [ "visual_left", "kitchen" ]
     },
     {
         "vtt": "00:01:16.580 --> 00:01:17.380",
@@ -434,23 +518,26 @@
         "text": [
             "Oh."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:01:17.380 --> 00:01:18.920",
         "speaker": [ null ],
         "text": [
-            "[CLATTERING KITCHENWARE ON THE GROUND]"
+            "[clattering kitchenware on the ground]"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:01:19.120 --> 00:01:21.440",
         "speaker": [ null ],
         "text": [
-            "Oh, shit."
+            "Oh-o, shit."
         ],
-        "classes": [ "r" ]
+        "situation": null,
+        "classes": [ "r", "kitchen_end" ]
     },
     {
         "vtt": "00:01:21.440 --> 00:01:25.340",
@@ -458,15 +545,17 @@
         "text": [
             "You didn't say corner. (2x)"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
         "vtt": "00:01:25.340 --> 00:01:26.850",
         "speaker": [ null ],
         "text": [
-            "Fuck, you, Richie.",
+            "Fuck. you. Richie.",
             "You don't--"
         ],
+        "situation": null,
         "classes": [ "r1", "l2" ]
     },
     {
@@ -475,6 +564,7 @@
         "text": [
             "You don't need to curse at me--"
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -484,6 +574,7 @@
             "Fuck--",
             "--like a maniac."
         ],
+        "situation": null,
         "classes": [ "r1", "l2" ]
     },
     {
@@ -492,14 +583,16 @@
         "text": [
             "You didn't say corner."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
-        "vtt": "00:01:30.320 --> 00:01:31.460",
+        "vtt": "00:01:30.220 --> 00:01:31.860",
         "speaker": [ null ],
         "text": [
             "I'm not a fucking maniac, man."
         ],
+        "situation": null,
         "classes": [ "r" ]
     },
     {
@@ -509,6 +602,7 @@
             "It's your bullshit that",
             "fucked us today, not mine."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -517,6 +611,7 @@
         "text": [
             "It's your bullshit."
         ],
+        "situation": null,
         "classes": [ "l" ]
     },
     {
@@ -525,6 +620,7 @@
         "text": [
             "Fuck you, Richie."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
@@ -533,46 +629,52 @@
         "text": [
             "Fuck you!"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
-        "vtt": "00:01:37.690 --> 00:01:38.600",
-        "speaker": [ "Carmy (in the background)" ],
+        "vtt": "00:01:38.000 --> 00:01:39.200",
+        "speaker": [ "Carmy" ],
         "text": [
-            "Sydney."
+            "Sydney!"
         ],
+        "situation": "in the background",
         "classes": [ null ]
     },
     {
-        "vtt": "00:01:38.600 --> 00:01:40.270",
-        "speaker": [ "Carmy (in the background)" ],
+        "vtt": "00:01:39.200 --> 00:01:40.270",
+        "speaker": [ "Richie" ],
         "text": [
             "I like that pace, Louie."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:01:40.270 --> 00:01:41.470",
-        "speaker": [ "Louie (in the background)" ],
+        "speaker": [ "Louie" ],
         "text": [
             "Yeah, baby."
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:01:41.470 --> 00:01:42.670",
         "speaker": [ null ],
         "text": [
-            "[PHONE RINGING]"
+            "[phone ringing]"
         ],
+        "situation": null,
         "classes": [ null ]
     },
     {
         "vtt": "00:01:42.670 --> 00:01:44.820",
         "speaker": [ null ],
         "text": [
-            "[BELL DINGS]"
+            "[bell dings]"
         ],
+        "situation": null,
         "classes": [ null ]
     }
 ]
