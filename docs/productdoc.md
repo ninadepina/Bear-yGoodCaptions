@@ -11,7 +11,7 @@ Marie experiences a significant loss of nuance while watching a movie or a docum
 ## First meeting with Marie
 I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
 
-Read the full transcript from meeting Marie [here](https://github.com/ninadepina/Bear-yGoodCaptions/blob/main/docs/interview.md).
+Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).
 
 ## Concept
 I noticed that I was getting a bit stuck when trying to come up with a concept. This was mainly because I wanted to create something that Marie could actually use after this project, which is not entirely feasible.
@@ -74,3 +74,21 @@ Text in all caps can sometimes be too much, but sometimes it's necessary. There 
 
 Nice!!! Well done.
 ```
+**Things I'll improve based on Marie's feedback:**
+- Remove speaker names when the speaker keeps talking.
+- Play with placement of closed captions.
+- Look into more ways to display how loud someone is speaking.
+
+---
+
+# CaptionWizard: Week 3
+This week I have worked on improving my concept based on the feedback I received from Marie.
+
+## Changes I made since testing the concept
+- I removed the speaker names when the speaker keeps talking.
+![removed speaker names when speaker keeps talking](https://github.com/ninadepina/CaptionWizard/tree/main/docs/assets/v2Names.png)
+
+- I played with the placement of the closed captions.
+![played with placement of closed captions](https://github.com/ninadepina/CaptionWizard/tree/main/docs/assets/v2Positioning.png)
+
+- I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
