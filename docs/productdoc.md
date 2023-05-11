@@ -30,35 +30,6 @@ In the end, I chose to work with a scene from the series 'The Bear'. The idea is
     - Provide more specific explanations of background noises.
     - Add speech tone (stuttering, etc.).
 
-## Exclusive Design Principles
-Exclusive Design is the opposite of Inclusive Design. Normally we design sites and apps that can be used by as many people as possible (Inclusive Design). With Exclusive Design you focus entirely on 1 person, you tailor your design completely to that person[^1]. 
-
-### 1. Study Situation
-> By looking very specifically at the situation of one person, you'll truly understand what that person needs.
-
-Marie was born deaf. She has never been anle to hear anything and doesn't know what certain things sound like. 
-
-Marie likes to watch series, but is currently not satisfied with the closed captions streaming services provide. She finds them to be too bland and devoid of emotion. She wishes to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. 
-
-These wishes are specific to Marie and don't necessarily apply to other people who have problems with closed captions.
-
-### 2. Ignore Conventions
-> Patterns on the web are useful for quickly understanding an interface, but people with disabilities may struggle with such a pattern.
-
-The standard positioning for closed captions is at the bottom (and centered) of the video, which has become a widely recognized pattern. However, Marie has expressed that she would like to see more depth in closed captions. This means that I will have to experiment with the positioning of the captions, as well as with the content of the closed captions.
-
-### 3. Prioritise Identity
-> Design is tailored specifically to meet the user's preferences.
-
-I chose to work with a scene from 'The Bear' because Marie is expressed that she likes to watch series.
-
-### 4. Add Nonsense
-> A website needs to be functional. However, once it works, it can quickly become boring if you don't add anything fun. Why not let your visitors roam around your application with a smile on their face?
-
-In the scene I used, there is a part where two people bump into each other and kitchenware falls and clatters on the ground. I played around with positioning and animation of onomatopoeia words (e.g. BANG, KRRGG, etc.), which I think is a fun addition to the scene.
-
-[^1]: Van Gemert, V. (n.d.). Flipping things. [https://exclusive-design.vasilis.nl/flipping-things/](https://exclusive-design.vasilis.nl/flipping-things/)
-
 ---
 
 # CaptionWizard: Week 2
@@ -112,4 +83,33 @@ My solution for Marie is a web app that has enhanced closed captions. It include
 - **Speech tone:** in spoken language, the tone of voice adds meaning to the words (e.g. a sarcastic tone or a stutter). Similarly, the volume of the voice can convey a different meaning (in spoken language you have a big range in volume, in closed captions you only have lower- and uppercase letters). This feature adds the tone of voice to the closed captions and adds a subtle shake to the screen when someone is furious to provide more depth to the viewing experience.
 - **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
 
-[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
+**Live prototype: **[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
+
+### Exclusive Design Principles and how I applied them
+Exclusive Design is the opposite of Inclusive Design. Normally we design sites and apps that can be used by as many people as possible (Inclusive Design). With Exclusive Design you focus entirely on 1 person, you tailor your design completely to that person[^1]. 
+
+#### 1. Study Situation
+> By looking very specifically at the situation of one person, you'll truly understand what that person needs.
+
+Marie was born deaf. She has never been anle to hear anything and doesn't know what certain things sound like. 
+
+Marie likes to watch series, but is currently not satisfied with the closed captions streaming services provide. She finds them to be too bland and devoid of emotion. She wishes to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. 
+
+These wishes are specific to Marie and don't necessarily apply to other people who have problems with closed captions.
+
+#### 2. Ignore Conventions
+> Patterns on the web are useful for quickly understanding an interface, but people with disabilities may struggle with such a pattern.
+
+The standard positioning for closed captions is at the bottom (and centered) of the video, which has become a widely recognized pattern. However, Marie has expressed that she would like to see more depth in closed captions. This means that I will have to experiment with the positioning of the captions, as well as with the content of the closed captions.
+
+#### 3. Prioritise Identity
+> Design is tailored specifically to meet the user's preferences.
+
+I chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty with because of the closed captions.
+
+#### 4. Add Nonsense
+> A website needs to be functional. However, once it works, it can quickly become boring if you don't add anything fun. Why not let your visitors roam around your application with a smile on their face?
+
+In the scene I used, there is a part where two people bump into each other and kitchenware falls and clatters on the ground. I played around with positioning and animation of onomatopoeia words (e.g. BANG, KRRGG, etc.), which I think is a fun addition to the scene.
+
+[^1]: Van Gemert, V. (n.d.). Flipping things. [https://exclusive-design.vasilis.nl/flipping-things/](https://exclusive-design.vasilis.nl/flipping-things/)
