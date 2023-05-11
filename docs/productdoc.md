@@ -85,10 +85,20 @@ Nice!!! Well done.
 This week I have worked on improving my concept based on the feedback I received from Marie.
 
 ## Changes I made since testing the concept
-I removed the speaker names when the speaker keeps talking.
+- I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
+
+- I removed the speaker names when the speaker keeps talking.
 ![v2Names](https://github.com/ninadepina/CaptionWizard/assets/89778503/a6c6ae10-bdf7-4b02-a063-7ea3e22c128d)
 
-I played with the placement of the closed captions.
+- I played with the placement of the closed captions.
 ![v2Positioning](https://github.com/ninadepina/CaptionWizard/assets/89778503/0540c984-3006-466a-88e0-6056421b3e98)
 
-I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
+
+## Final concept
+My solution for Marie is a web app that has enhanced closed captions. It includes the following features:
+- **Speaker identification:** when a speaker is not visible on the screen, the name of the speaker is added to the caption. This feature helps users easily associate the spoken words with specific individuals, even when they are not in the camera's view.
+- **Detailed explanations of background noises:** specific and contextual explanations of background noises to assist users in understanding their origin or significance. Also added written out sounds (e.g. [SMASH], [CLATTER]) to add more depth to the viewing experience.
+- **Speech tone:** in spoken language, the tone of voice adds meaning to the words (e.g. a sarcastic tone or a stutter). Similarly, the volume of the voice can convey a different meaning (in spoken language you have a big range in volume, in closed captions you only have lower- and uppercase letters). This feature adds the tone of voice to the closed captions and adds a subtle shake to the screen when someone is furious to provide more depth to the viewing experience.
+- **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
+
+[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
