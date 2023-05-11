@@ -3,7 +3,11 @@ Marie is a 34-year-old Deaf (with a capital 'D', which means she doesn't see her
 
 Due to her deafness, Marie relies on sign language and lip-reading for communication. You'll understand that Marie therefore experiences difficulty with tasks that heavily rely on sound.
 
-Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral. How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
+Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral. 
+
+Unlike typical prototypes, Marie is already proficient in using digital technologies. The challenge lies in incorporating visual representations or symbols for sound descriptions to convey the atmosphere or tone of a scene. Marie believes that excessive sound descriptions in captions are unnecessary when the sounds are already visible on screen, such as an explosion. She desires the inclusion of appropriately labeled speakers within the captions to enhance her understanding of conversations. Consistency and accuracy in representing speech and expressions are also valued by Marie in closed captions.
+
+How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
 
 ## Assumptions
 - Difficulty experiencing the emotions conveyed by a film/series (as music is a significant component in that).
@@ -61,7 +65,10 @@ In the scene I used, there is a part where two people bump into each other and k
 Based on the findings from last week, I have started working on a concept. I have chosen a scene from the TV series 'The Bear' to work with. The idea is to first improve the closed captions and also provide a visual indication of where background noises are coming from.
 
 ## Second meeting with Marie (testing the concept)
-I met Marie again to test my concept. I showed her the scene I had worked on, and was mostly curious to see what her thoughts were about the changed closed captions and the light cues, which indicate where speech in the background is coming from. She gave me some great feedback, which I will use to improve my concept.
+I met Marie again to test my concept. I showed her the scene I had worked on, and was mostly curious to see what her thoughts were about the changed closed captions and the light cues, which indicate where speech in the background is coming from. 
+
+
+She gave me some great feedback, which I will use to improve my concept.
 ```plaintext
 Nice, good. 
 
