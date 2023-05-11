@@ -1,5 +1,7 @@
 # CaptionWizard: Week 1
-Marie is Deaf (with a capital 'D', which means she doesn't see her deafness as a disability). She was born deaf, and her native language is Dutch Sign Language. You'll understand that Marie experiences difficulty with tasks that heavily rely on sound.
+Marie is a 34-year-old Deaf (with a capital 'D', which means she doesn't see her deafness as a disability) UX designer. She was born deaf, and her native language is Dutch Sign Language. She works at UpInk, a design agency in Amsterdam that focuses on projects with social impact. Marie enjoys cooking, spending time with friends, kitesurfing, and teaching kitesurfing to other Deaf individuals. 
+
+Due to her deafness, Marie relies on sign language and lip-reading for communication. You'll understand that Marie therefore experiences difficulty with tasks that heavily rely on sound.
 
 Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral. How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
 
@@ -9,6 +11,7 @@ Marie experiences a significant loss of nuance while watching a movie or a docum
 - Difficulty discerning the tone of the speaker (especially when the speaker is not on screen).
 
 ## First meeting with Marie
+
 I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
 
 Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).

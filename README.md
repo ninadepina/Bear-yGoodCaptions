@@ -5,7 +5,9 @@
 >How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
 
 ## Problem definition
-Marie is Deaf (with a capital 'D', which means she doesn't see her deafness as a disability). She was born deaf, and her native language is Dutch Sign Language. You'll understand that Marie experiences difficulty with tasks that heavily rely on sound.
+Marie is a 34-year-old Deaf (with a capital 'D', which means she doesn't see her deafness as a disability) UX designer. She was born deaf, and her native language is Dutch Sign Language. She works at UpInk, a design agency in Amsterdam that focuses on projects with social impact. Marie enjoys cooking, spending time with friends, kitesurfing, and teaching kitesurfing to other Deaf individuals. 
+
+Due to her deafness, Marie relies on sign language and lip-reading for communication. You'll understand that Marie therefore experiences difficulty with tasks that heavily rely on sound.
 
 Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral. How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
 
