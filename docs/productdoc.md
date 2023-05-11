@@ -86,9 +86,9 @@ This week I have worked on improving my concept based on the feedback I received
 
 ## Changes I made since testing the concept
 - I removed the speaker names when the speaker keeps talking.
-![removed speaker names when speaker keeps talking](https://github.com/ninadepina/CaptionWizard/tree/main/docs/assets/v2Names.png)
+
 
 - I played with the placement of the closed captions.
-![played with placement of closed captions](https://github.com/ninadepina/CaptionWizard/tree/main/docs/assets/v2Positioning.png)
+
 
 - I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
