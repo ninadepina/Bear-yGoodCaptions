@@ -1,4 +1,5 @@
 # 👋🏼 CaptionWizard
+![thumbnail](https://github.com/ninadepina/CaptionWizard/assets/89778503/e4f51288-b870-4fdf-87a0-fad0dbcdfee7)
 
 ## Research question
 >How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
