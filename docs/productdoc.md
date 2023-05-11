@@ -66,7 +66,7 @@ Based on the findings from last week, I have started working on a concept. I hav
 
 ## Second meeting with Marie (testing the concept)
 I met Marie again to test my concept. I showed her the scene I had worked on, and was mostly curious to see what her thoughts were about the changed closed captions and the light cues, which indicate where speech in the background is coming from. 
-
+![visualisation of position of background noise](https://github.com/ninadepina/CaptionWizard/assets/89778503/a9b67c7d-0309-4b37-ae1d-d64447ff2d19)
 
 She gave me some great feedback, which I will use to improve my concept.
 ```plaintext
