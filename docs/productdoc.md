@@ -91,7 +91,7 @@ Exclusive Design is the opposite of Inclusive Design. Normally we design sites a
 #### 1. Study Situation
 > By looking very specifically at the situation of one person, you'll truly understand what that person needs.
 
-Marie was born deaf. She has never been anle to hear anything and doesn't know what certain things sound like. 
+Marie was born deaf. She has never had the ability to perceive sounds, rendering her unaware of the transformative power of music and how it can profoundly influence one's mood.
 
 Marie likes to watch series, but is currently not satisfied with the closed captions streaming services provide. She finds them to be too bland and devoid of emotion. She wishes to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. 
 
@@ -100,12 +100,12 @@ These wishes are specific to Marie and don't necessarily apply to other people w
 #### 2. Ignore Conventions
 > Patterns on the web are useful for quickly understanding an interface, but people with disabilities may struggle with such a pattern.
 
-The standard positioning for closed captions is at the bottom (and centered) of the video, which has become a widely recognized pattern. However, Marie has expressed that she would like to see more depth in closed captions. This means that I will have to experiment with the positioning of the captions, as well as with the content of the closed captions.
+The standard positioning for closed captions is at the bottom (and center) of the video, which has become a widely recognized pattern. However, Marie has expressed that she would like the closed captions to be more clear (as in who is speaking). This means that I will have to experiment with the positioning of the captions, as well as with the content of the closed captions.
 
 #### 3. Prioritise Identity
 > Design is tailored specifically to meet the user's preferences.
 
-I chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty with because of the closed captions.
+I chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty following the closed captions and understanding the mood.
 
 #### 4. Add Nonsense
 > A website needs to be functional. However, once it works, it can quickly become boring if you don't add anything fun. Why not let your visitors roam around your application with a smile on their face?
