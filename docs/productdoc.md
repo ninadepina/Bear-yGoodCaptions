@@ -57,7 +57,7 @@ Based on the first meeting with Marie, I made changes to the 'Bear' scene. Thing
 
 | Old | New |
 | :-- | :-- |
-|     |     |
+| ![ccOld](https://github.com/ninadepina/CaptionWizard/assets/89778503/05732a8b-1551-4602-a99f-88a8e26d5f6b)    | ![ccNew](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)    |
 
 She gave me some great feedback, which I will use to improve my concept:
 
