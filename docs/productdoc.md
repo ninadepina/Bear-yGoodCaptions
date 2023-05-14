@@ -54,10 +54,14 @@ Based on the first meeting with Marie, I made changes to the 'Bear' scene. Thing
 ![visualisation of position of background noise](https://github.com/ninadepina/CaptionWizard/assets/89778503/a9b67c7d-0309-4b37-ae1d-d64447ff2d19)
 
 **Added names when the speaker is not visible on screen**
-
 | Old | New |
-| :-- | :-- |
-| ![ccOld](https://github.com/ninadepina/CaptionWizard/assets/89778503/05732a8b-1551-4602-a99f-88a8e26d5f6b)    | ![ccNew](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)    |
+| :--------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
+| ![current captions](https://github.com/ninadepina/CaptionWizard/assets/89778503/05732a8b-1551-4602-a99f-88a8e26d5f6b) | ![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce) |
+
+**Added speech tone (stuttering, etc.)**
+| Old | New |
+| :--- | :--- |
+|      |      |
 
 She gave me some great feedback, which I will use to improve my concept:
 
