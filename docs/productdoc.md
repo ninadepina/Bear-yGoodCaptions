@@ -87,16 +87,7 @@ Nice!!! Well done.
 -   Play with placement of closed captions.
 -   Look into more ways to display how loud someone is speaking.
 
----
-
-## CaptionWizard: Week 3
-
-This week I have worked on improving my concept based on the feedback I received from Marie.
-
-### Changes I made since testing the concept
-
-I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
-![ezgif com-video-to-gif](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+## Improvements I made since testing the concept
 
 I removed the speaker names when the speaker keeps talking.
 ![v2Names](https://github.com/ninadepina/CaptionWizard/assets/89778503/a6c6ae10-bdf7-4b02-a063-7ea3e22c128d)
@@ -104,22 +95,32 @@ I removed the speaker names when the speaker keeps talking.
 I played with the placement of the closed captions.
 ![v2Positioning](https://github.com/ninadepina/CaptionWizard/assets/89778503/0540c984-3006-466a-88e0-6056421b3e98)
 
-### Final concept
+I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
+![gif](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+
+## Final concept
 
 My solution for Marie is a web app that has enhanced closed captions. It includes the following features:
 
 -   **Speaker identification:** when a speaker is not visible on the screen, the name of the speaker is added to the caption. This feature helps users easily associate the spoken words with specific individuals, even when they are not in the camera's view.
+![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)
+
 -   **Detailed explanations of background noises:** specific and contextual explanations of background noises to assist users in understanding their origin or significance. Also added written out sounds (e.g. [SMASH], [CLATTER]) to add more depth to the viewing experience.
+
 -   **Speech tone:** in spoken language, the tone of voice adds meaning to the words (e.g. a sarcastic tone or a stutter). Similarly, the volume of the voice can convey a different meaning (in spoken language you have a big range in volume, in closed captions you only have lower- and uppercase letters). This feature adds the tone of voice to the closed captions and adds a subtle shake to the screen when someone is furious to provide more depth to the viewing experience.
+
+![gif](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+
 -   **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
+
 
 **Live prototype: **[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
 
-#### Exclusive Design Principles and how I applied them
+## Exclusive Design Principles and how I applied them
 
 Exclusive Design is the opposite of Inclusive Design. Normally we design sites and apps that can be used by as many people as possible (Inclusive Design). With Exclusive Design you focus entirely on 1 person, you tailor your design completely to that person[^1].
 
-##### 1. Study Situation
+### 1. Study Situation
 
 > By looking very specifically at the situation of one person, you'll truly understand what that person needs.
 
@@ -129,19 +130,19 @@ Marie likes to watch series, but is currently not satisfied with the closed capt
 
 These wishes are specific to Marie and don't necessarily apply to other people who have problems with closed captions.
 
-##### 2. Ignore Conventions
+### 2. Ignore Conventions
 
 > Patterns on the web are useful for quickly understanding an interface, but people with disabilities may struggle with such a pattern.
 
 The standard positioning for closed captions is at the bottom (and center) of the video, which has become a widely recognized pattern. However, Marie has expressed that she would like the closed captions to be more clear (as in who is speaking). This means that I will have to experiment with the positioning of the captions, as well as with the content of the closed captions.
 
-##### 3. Prioritise Identity
+### 3. Prioritise Identity
 
 > Design is tailored specifically to meet the user's preferences.
 
 I chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty following the closed captions and understanding the mood.
 
-##### 4. Add Nonsense
+### 4. Add Nonsense
 
 > A website needs to be functional. However, once it works, it can quickly become boring if you don't add anything fun. Why not let your visitors roam around your application with a smile on their face?
 
