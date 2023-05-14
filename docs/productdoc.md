@@ -115,7 +115,7 @@ My solution for Marie is a web app that has enhanced closed captions. It include
 -   **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
 ![visual indication of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/0b4022a6-a057-4f48-a5ac-0689949a185a)
 
-**Live prototype: **[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
+**Live prototype:** [captionwizard.vercel.app/](https://captionwizard.vercel.app/)
 
 ## Exclusive Design Principles and how I applied them
 
@@ -125,9 +125,7 @@ Exclusive Design is the opposite of Inclusive Design. Normally we design sites a
 
 > By looking very specifically at the situation of one person, you'll truly understand what that person needs.
 
-Marie was born deaf. She has never had the ability to perceive sounds, rendering her unaware of the transformative power of music and how it can profoundly influence one's mood.
-
-Marie likes to watch series, but is currently not satisfied with the closed captions streaming services provide. She finds them to be too bland and devoid of emotion. She wishes to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing.
+During our meetings/tests I got to know Marie better and better. I learned about her daily life, her hobbies and her frustrations. I learned that she likes to watch series, but is currently not satisfied with the closed captions streaming services provide. She finds them to be too bland and devoid of emotion. She wishes to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing.
 
 These wishes are specific to Marie and don't necessarily apply to other people who have problems with closed captions.
 
@@ -139,9 +137,17 @@ The standard positioning for closed captions is at the bottom (and center) of th
 
 ### 3. Prioritise Identity
 
-> Design is tailored specifically to meet the user's preferences.
+> Design is tailored specifically to meet the user's preferences. This approach can help avoid a one-size-fits-all solution and instead create designs that are more inclusive and respectful of individual differences.
 
-I chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty following the closed captions and understanding the mood.
+My whole design is tailored to Marie's preferences. Every feature I added/changed is based on her wishes and needs.
+-   I improved the content of the closed captions because Marie expressed that she would like the closed captions to be more clear.
+-   I changed the positioning of the closed captions because Marie expressed that she would like it to be more clear who's speaking.
+-   I added speaker names to the closed captions because Marie expressed that she would like to know who is speaking, when the speaker is not in the camera's view.
+-   I added detailed explanations of background noises because Marie expressed that she currently found them to be too bland.
+-   I added a visual indication of background noises because Marie expressed that she would like to know the origin of the background noises.
+-   I added a subtle shake to the screen when someone is furious because Marie expressed that she would like to see more nuances in how angry someone is.
+
+I also chose to work with a scene from 'The Bear' because Marie expressed in our first meeting that that is one of the series she likes to watch. It's also one of the series she had difficulty following the closed captions and understanding the mood.
 
 ### 4. Add Nonsense
 
