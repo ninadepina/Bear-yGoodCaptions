@@ -61,7 +61,7 @@ Based on the first meeting with Marie, I made changes to the 'Bear' scene. Thing
 **Added speech tone (stuttering, etc.)**
 | Old | New |
 | :-- | :-- |
-| ![current captions](https://github.com/ninadepina/CaptionWizard/assets/89778503/dd331351-fc74-41d9-a706-7641c43263ac) | ![ccNew](https://github.com/ninadepina/CaptionWizard/assets/89778503/181ee149-cdbc-42d4-bce0-0d95c913c7fb) |
+| ![current captions](https://github.com/ninadepina/CaptionWizard/assets/89778503/dd331351-fc74-41d9-a706-7641c43263ac) | ![captions with improved speech](https://github.com/ninadepina/CaptionWizard/assets/89778503/181ee149-cdbc-42d4-bce0-0d95c913c7fb) |
 
 She gave me some great feedback, which I will use to improve my concept:
 
@@ -106,13 +106,14 @@ My solution for Marie is a web app that has enhanced closed captions. It include
 ![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)
 
 -   **Detailed explanations of background noises:** specific and contextual explanations of background noises to assist users in understanding their origin or significance. Also added written out sounds (e.g. [SMASH], [CLATTER]) to add more depth to the viewing experience.
+![detailed explanations of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/5e88d04c-c030-4fe8-b857-31ea7727c149)
 
 -   **Speech tone:** in spoken language, the tone of voice adds meaning to the words (e.g. a sarcastic tone or a stutter). Similarly, the volume of the voice can convey a different meaning (in spoken language you have a big range in volume, in closed captions you only have lower- and uppercase letters). This feature adds the tone of voice to the closed captions and adds a subtle shake to the screen when someone is furious to provide more depth to the viewing experience.
-
-![gif](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+![captions with improved speech](https://github.com/ninadepina/CaptionWizard/assets/89778503/181ee149-cdbc-42d4-bce0-0d95c913c7fb)
+![gif shaking screen](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
 
 -   **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
-
+![visual indication of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/0b4022a6-a057-4f48-a5ac-0689949a185a)
 
 **Live prototype: **[captionwizard.vercel.app/](https://captionwizard.vercel.app/)
 
