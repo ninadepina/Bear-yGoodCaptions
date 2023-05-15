@@ -12,15 +12,17 @@ For [this course](https://github.com/cmda-minor-web/human-centered-design-2223),
 
 ## My assigned person
 
-Marie is a 34-year-old Deaf (with a capital 'D', which means she doesn't see her deafness as a disability) UX designer. She was born deaf, and her native language is Dutch Sign Language. She works at UpInk, a design agency in Amsterdam that focuses on projects with social impact. Marie enjoys cooking, spending time with friends, kitesurfing, and teaching kitesurfing to other Deaf individuals.
+Marie is Deaf (with a capital 'D', which means she identifies herself as Deaf, and her first language is Dutch Sign Language). You will understand that Marie struggles with things that heavily rely on sound.
 
-Due to her deafness, Marie relies on sign language and lip-reading for communication. You'll understand that Marie therefore experiences difficulty with tasks that heavily rely on sound.
+<details>
+<summary>How does a podcast work for Marie?</summary>
+In a transcript, a lot of nuance is inevitably lost. Create a solution that is equally enjoyable for someone who cannot listen as it is for someone who can.
+</details>
 
-Marie experiences a significant loss of nuance while watching a movie or a documentary. Although many films offer closed captions, they are often too neutral.
-
-Unlike typical prototypes, Marie is already proficient in using digital technologies. The challenge lies in incorporating visual representations or symbols for sound descriptions to convey the atmosphere or tone of a scene. Marie believes that excessive sound descriptions in captions are unnecessary when the sounds are already visible on screen, such as an explosion. She desires the inclusion of appropriately labeled speakers within the captions to enhance her understanding of conversations. Consistency and accuracy in representing speech and expressions are also valued by Marie in closed captions.
-
-How might we enhance closed captions(cc) to provide Marie with a more meaningful viewing experience?
+<details>
+<summary>How do closed captions work for Marie?</summary>
+Marie experiences a significant loss of nuance while watching a movie or a documentary. Many films offer closed captions, but they are as neutral as possible. How can you enrich closed captions to provide more meaning for Marie?
+</details>
 
 ## Assumptions
 
@@ -33,6 +35,20 @@ How might we enhance closed captions(cc) to provide Marie with a more meaningful
 I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
 
 Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).
+
+## User Scenario
+
+### So, who exactly is Marie?
+
+Marie is a 34-year-old Deaf (with a capital 'D', which means she doesn't see her deafness as a disability) UX designer. She was born deaf, and her native language is Dutch Sign Language. She works at UpInk, a design agency in Amsterdam that focuses on projects with social impact. Marie enjoys cooking, spending time with friends, kitesurfing, and teaching kitesurfing to other Deaf individuals.
+
+### What does Marie need and why?
+
+Due to her deafness, Marie relies on sign language and lip-reading for communication. You'll understand that she faces difficulties in tasks that heavily rely on sound. Marie experiences a significant loss of nuance while watching movies or documentaries, as the existing closed captions often lack depth and fail to convey the appropriate atmosphere or tone of a scene. Marie desires closed captions that incorporate visual representations or symbols for sound descriptions, particularly for scenes where the sounds are visible on screen, such as explosions. She also seeks appropriately labeled speakers within the captions to enhance her understanding of conversations. Consistency and accuracy in representing speech and expressions are crucial for Marie to fully comprehend the content.
+
+### How will Marie have her needs met?
+
+To meet Marie's needs, closed captions can be enhanced to provide her with a more meaningful viewing experience. The challenge lies in developing prototypes that incorporate visual representations or symbols for sound descriptions, effectively conveying the atmosphere and tone of a scene. Marie suggests minimizing excessive sound descriptions in captions when the sounds are already visible on screen. Additionally, incorporating appropriately labeled speakers within the captions would enhance her understanding of conversations. To ensure consistency and accuracy, a focus on representing speech and expressions faithfully in closed captions is crucial. By implementing these improvements, Marie can enjoy movies and documentaries with a greater level of detail and comprehension, enriching her overall viewing experience.
 
 ## Concept
 
@@ -103,17 +119,17 @@ I added a visual indication (subtle shake of the screen) when someone is aggress
 My solution for Marie is a web app that has enhanced closed captions. It includes the following features:
 
 -   **Speaker identification:** when a speaker is not visible on the screen, the name of the speaker is added to the caption. This feature helps users easily associate the spoken words with specific individuals, even when they are not in the camera's view.
-![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)
+    ![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)
 
 -   **Detailed explanations of background noises:** specific and contextual explanations of background noises to assist users in understanding their origin or significance. Also added written out sounds (e.g. [SMASH], [CLATTER]) to add more depth to the viewing experience.
-![detailed explanations of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/5e88d04c-c030-4fe8-b857-31ea7727c149)
+    ![detailed explanations of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/5e88d04c-c030-4fe8-b857-31ea7727c149)
 
 -   **Speech tone:** in spoken language, the tone of voice adds meaning to the words (e.g. a sarcastic tone or a stutter). Similarly, the volume of the voice can convey a different meaning (in spoken language you have a big range in volume, in closed captions you only have lower- and uppercase letters). This feature adds the tone of voice to the closed captions and adds a subtle shake to the screen when someone is furious to provide more depth to the viewing experience.
-![captions with improved speech](https://github.com/ninadepina/CaptionWizard/assets/89778503/181ee149-cdbc-42d4-bce0-0d95c913c7fb)
-![gif shaking screen](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+    ![captions with improved speech](https://github.com/ninadepina/CaptionWizard/assets/89778503/181ee149-cdbc-42d4-bce0-0d95c913c7fb)
+    ![gif shaking screen](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
 
 -   **Visual indication of background noises:** provides a visual indication that helps users identify the direction of the source of background noises. This provides a more immersive viewing experience and prevents users from being surprised by not hearing the sound.
-![visual indication of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/0b4022a6-a057-4f48-a5ac-0689949a185a)
+    ![visual indication of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/0b4022a6-a057-4f48-a5ac-0689949a185a)
 
 **Live prototype:** [captionwizard.vercel.app/](https://captionwizard.vercel.app/)
 
@@ -140,6 +156,7 @@ The standard positioning for closed captions is at the bottom (and center) of th
 > Design is tailored specifically to meet the user's preferences. This approach can help avoid a one-size-fits-all solution and instead create designs that are more inclusive and respectful of individual differences.
 
 My whole design is tailored to Marie's preferences. Every feature I added/changed is based on her wishes and needs.
+
 -   I improved the content of the closed captions because Marie expressed that she would like the closed captions to be more clear.
 -   I changed the positioning of the closed captions because Marie expressed that she would like it to be more clear who's speaking.
 -   I added speaker names to the closed captions because Marie expressed that she would like to know who is speaking, when the speaker is not in the camera's view.
