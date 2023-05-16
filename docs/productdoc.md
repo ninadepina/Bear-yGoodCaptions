@@ -10,6 +10,8 @@ For [this course](https://github.com/cmda-minor-web/human-centered-design-2223),
 -   _Understand and incorporate user needs into your design._
 -   _Learn how to test and use the results to improve your design._
 
+---
+
 ## My assigned person
 
 Marie is Deaf (with a capital 'D', which means she identifies herself as Deaf, and her first language is Dutch Sign Language). You will understand that Marie struggles with things that heavily rely on sound.
@@ -27,6 +29,8 @@ In a transcript, a lot of nuance is inevitably lost. Create a solution that is e
 Marie experiences a significant loss of nuance while watching a movie or a documentary. Many films offer closed captions, but they are as neutral as possible. How can you enrich closed captions to provide more meaning for Marie?
 
 </details>
+
+---
 
 ## First meeting with Marie
 
@@ -69,6 +73,8 @@ Read the full transcript from meeting Marie [here](https://github.com/ninadepina
 
 </details>
 
+---
+
 ## User Scenario
 
 ### So, who exactly is Marie?
@@ -94,6 +100,8 @@ In the end, I chose to work with a scene from the series 'The Bear', mainly beca
     -   Add names when the speaker is not visible on screen.
     -   Provide more specific explanations of background noises.
     -   Add speech tone (stuttering, etc.).
+
+---
 
 ## Second meeting with Marie (testing the concept)
 
@@ -170,6 +178,8 @@ Nice!!! Well done.
 
 </details>
 
+---
+
 ## Improvements I made since testing the concept
 
 I removed the speaker names when the speaker keeps talking.
@@ -180,6 +190,8 @@ I played with the placement of the closed captions.
 
 I added a visual indication (subtle shake of the screen) when someone is aggressively screaming.
 ![gif](https://github.com/ninadepina/CaptionWizard/assets/89778503/6e6075fd-c169-4ddc-b5d9-15badf9b0ddc)
+
+---
 
 ## Final concept
 
@@ -199,6 +211,8 @@ My solution for Marie is a web app that has enhanced closed captions. The added/
     ![visual indication of background noises](https://github.com/ninadepina/CaptionWizard/assets/89778503/0b4022a6-a057-4f48-a5ac-0689949a185a)
 
 **Live prototype:** [captionwizard.vercel.app/](https://captionwizard.vercel.app/)
+
+---
 
 ## Exclusive Design Principles and how I applied them
 
