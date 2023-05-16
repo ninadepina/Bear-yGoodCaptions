@@ -24,5 +24,19 @@ My solution for Marie is a web app that has enhanced closed captions. It include
 ## Documentation
 The rest of my documentation can be found [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/productdoc.md)
 
+## Installation
+
+1. Clone this repository
+
+```
+$ git clone https://github.com/ninadepina/CaptionWizard.git
+```
+
+2. Open the `index.html` file in your browser or use localhost
+
+```
+http://localhost:5500/
+```
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/ninadepina/CaptionWizard/blob/main/LICENSE) file for more details.
