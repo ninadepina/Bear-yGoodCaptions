@@ -183,7 +183,6 @@ I added a visual indication (subtle shake of the screen) when someone is aggress
 
 ## Final concept
 
-My solution for Marie is a web app that has enhanced closed captions. It includes the following features:
 My solution for Marie is a web app that has enhanced closed captions. The added/changed features will enhance the viewing experience. It includes the following features:
 
 -   **Speaker identification:** when a speaker is not visible on the screen, the name of the speaker is added to the caption. This feature helps users easily associate the spoken words with specific individuals, even when they are not in the camera's view.
@@ -241,3 +240,4 @@ I also chose to work with a scene from 'The Bear' because Marie expressed in our
 In the scene I used, there is a part where two people bump into each other and kitchenware falls and clatters on the ground. I played around with positioning and animation of onomatopoeia words (e.g. BANG, KRRGG, etc.), which I think is a fun addition to the scene.
 
 [^1]: Van Gemert, V. (n.d.). Flipping things. [https://exclusive-design.vasilis.nl/flipping-things/](https://exclusive-design.vasilis.nl/flipping-things/)
+
