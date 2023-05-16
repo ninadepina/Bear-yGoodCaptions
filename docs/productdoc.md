@@ -40,6 +40,21 @@ I met Marie at the end of the first week of the course. She was very open about 
 
 Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).
 
+<details>
+<summary>Evaluation of the first meeting</summary>
+
+**What went well?**
+
+-   The conversation was discussed beforehand and questions were prepared.
+-   There was a pleasant atmosphere, and as far as could be noticed, everyone felt comfortable.
+-   There was a clear division of roles, with one person clearly leading the conversation and another person taking notes.
+
+**What could've gone better?**
+
+-   Due to the fact that we had the conversation with Marie almost immediately after explaining the project, there was no prototype to test. In hindsight, we might have been able to set up something small during this short period.
+
+</details>
+
 ## User Scenario
 
 ### So, who exactly is Marie?
@@ -125,6 +140,21 @@ Nice!!! Well done.
 -   Remove speaker names when the speaker keeps talking.
 -   Play with placement of closed captions.
 -   Look into more ways to display how loud someone is speaking.
+
+<details>
+<summary>Evaluation of the second meeting</summary>
+
+**What went well?**
+
+-   The conversation was discussed beforehand and we made a little planning for when who would show their prototype.
+-   There was a pleasant atmosphere.
+-   There was a clear division of roles, with one person clearly leading the conversation and another person taking notes.
+
+**What could've gone better?**
+
+-   (I can't come up with something right away that really needed to be better.)
+
+</details>
 
 ## Improvements I made since testing the concept
 
