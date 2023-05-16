@@ -28,15 +28,29 @@ Marie experiences a significant loss of nuance while watching a movie or a docum
 
 </details>
 
-## Assumptions
+## First meeting with Marie
+
+I met Marie on the on the same day as the explanation of the assignment, so unfortunately, there wasn't any time to create a testable prototype for this conversation. Therefore, we considered this first meeting less as a testing moment and more as an introductory conversation where we tried to gather as much information as possible about Marie and her preferences and requirements for this assignment.
+
+Before the conversation, the entire team came up with a number of assumptions that we were able to confirm or debunk during the discussion. Additionally, we also devised questions to learn more about Marie, her life, and her struggles.
+
+**Assumptions**
 
 -   Difficulty experiencing the emotions conveyed by a film/series (as music is a significant component in that).
 -   Difficulty discerning who is saying what when multiple people are speaking.
 -   Difficulty discerning the tone of the speaker (especially when the speaker is not on screen).
 
-## First meeting with Marie
+**Questions**
 
-I met Marie at the end of the first week of the course. She was very open about her deafness and her life with it. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
+-   Is there a difference between 'deaf' and 'Deaf'?
+-   Do you listen to podcasts, and if so, do you have a favorite podcast?
+-   When and where (context) do you usually listen to podcasts?
+-   Do you use specific apps for listening to podcasts?
+-   Have you had a positive experience with any particular app/service/media related to closed captions?
+-   What challenges do you encounter when listening to podcasts?
+-   Do you happen to have an example of the problem(s) you experience?
+
+She was very open about her deafness and her life with it. We discovered very quickly that Marie doesn't 'listen' to podcasts because they are often inaccessible. She would be able to read a transcript, but she prefers reading a good book over following a conversation between two people. Additionally, she expressed her thoughts on closed captions, conveying that she often perceives them to be too bland and devoid of emotion. She was very specific in her likes and dislikes, and I was able to take notes on her preferences. She wished to see more depth in captions, including the name of the speaker, their tone and an indication on where the background noise is coming from. But note that excessive captions is also a thing. For example, when a person is speaking and visible on screen, it is unnecessary to display their name.
 
 Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).
 
