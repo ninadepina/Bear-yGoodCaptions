@@ -64,7 +64,26 @@ In the end, I chose to work with a scene from the series 'The Bear', mainly beca
 
 ## Second meeting with Marie (testing the concept)
 
-Based on the first meeting with Marie, I made changes to the 'Bear' scene. Things I changed:
+<details>
+<summary>Testing do's and don'ts</summary>
+
+Before actually testing something, it's a good idea to create a test plan. This plan will provide guidance throughout the testing and ensures that your main objectives are clearly defined. The test plan consists of an introduction, scenario, things that you want to test, and if wanted you can let your testing subject complete some tasks. Consider what information you want to gather and which components should be tested for that purpose. Develop a scenario that outlines a situation and the user's context, explaining why they would use your product (in this case, an app). Subsequently, devise a set of tasks for your test subject to perform based on the components/features you wish to test (i chose to not do that for this project, since there's not really something to do besides watching a video). Frame each task as a question, avoiding any hints, tips, or instructions within the question itself. Once the test is complete, assess its outcomes and document your findings. Utilize this information to create a plan for enhancing, modifying, or adding specific elements in your next iteration.
+
+</details>
+
+### Test plan
+
+#### Introduction
+
+I've chosen to work with the closed captions of the series 'The Bear'. I've chosen this series because you expressed in our first meeting that that is one of the series you liked to watch, and also one of the series you had difficulty following the closed captions.
+
+#### Scenario
+
+Imagine yourself on a relaxing evening after a long day, looking forward to unwinding and enjoying some entertainment. You've heard great things about a new streaming platform that offers accessibility features, specifically catering to individuals who are deaf or hard of hearing. Intrigued, you decide to launch the app and delve into your favorite series, 'The Bear'.
+
+#### What I want to test
+
+Based on the first meeting with Marie, I made changes to the 'Bear' scene. I would like to see how Marie responds to these changes. Things I changed:
 
 **Added light cues, which indicate where speech in the background is coming from**
 ![visualisation of position of background noise](https://github.com/ninadepina/CaptionWizard/assets/89778503/a9b67c7d-0309-4b37-ae1d-d64447ff2d19)
