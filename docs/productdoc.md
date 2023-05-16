@@ -16,12 +16,16 @@ Marie is Deaf (with a capital 'D', which means she identifies herself as Deaf, a
 
 <details>
 <summary>How does a podcast work for Marie?</summary>
+
 In a transcript, a lot of nuance is inevitably lost. Create a solution that is equally enjoyable for someone who cannot listen as it is for someone who can.
+
 </details>
 
 <details>
 <summary>How do closed captions work for Marie?</summary>
+
 Marie experiences a significant loss of nuance while watching a movie or a documentary. Many films offer closed captions, but they are as neutral as possible. How can you enrich closed captions to provide more meaning for Marie?
+
 </details>
 
 ## Assumptions
@@ -136,6 +140,7 @@ I added a visual indication (subtle shake of the screen) when someone is aggress
 ## Final concept
 
 My solution for Marie is a web app that has enhanced closed captions. It includes the following features:
+My solution for Marie is a web app that has enhanced closed captions. The added/changed features will enhance the viewing experience. It includes the following features:
 
 -   **Speaker identification:** when a speaker is not visible on the screen, the name of the speaker is added to the caption. This feature helps users easily associate the spoken words with specific individuals, even when they are not in the camera's view.
     ![captions with improved names](https://github.com/ninadepina/CaptionWizard/assets/89778503/d719f09d-97d4-4c55-bbb9-1a9420bcbdce)
