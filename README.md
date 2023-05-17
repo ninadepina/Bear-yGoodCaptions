@@ -1,4 +1,4 @@
-# 👋🏼 CaptionWizard
+# 👋🏼 'CaptionWizard'
 
 ![thumbnail](https://github.com/ninadepina/CaptionWizard/assets/89778503/826ce2b3-bce4-4e0f-b12f-e4319fe5418c)
 
