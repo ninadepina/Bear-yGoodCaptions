@@ -89,6 +89,8 @@ Due to her deafness, Marie relies on sign language and lip-reading for communica
 
 To meet Marie's needs, closed captions can be enhanced to provide her with a more meaningful viewing experience. The challenge lies in developing prototypes that incorporate visual representations or symbols for sound descriptions, effectively conveying the atmosphere and tone of a scene. Marie suggests minimizing excessive sound descriptions in captions when the sounds are already visible on screen. Additionally, incorporating appropriately labeled speakers within the captions would enhance her understanding of conversations. To ensure consistency and accuracy, a focus on representing speech and expressions faithfully in closed captions is crucial. By implementing these improvements, Marie can enjoy movies and documentaries with a greater level of detail and comprehension, enriching her overall viewing experience.
 
+---
+
 ## Concept
 
 I noticed that I was getting a bit stuck when trying to come up with a concept. This was mainly because I wanted to create something that Marie could actually use after this project, which is not entirely feasible.
@@ -255,3 +257,26 @@ In the scene I used, there is a part where two people bump into each other and k
 
 [^1]: Van Gemert, V. (n.d.). Flipping things. [https://exclusive-design.vasilis.nl/flipping-things/](https://exclusive-design.vasilis.nl/flipping-things/)
 
+---
+
+## Reflection
+
+Throughout the course, I worked on a design assignment focused on creating a design exclusively for one individual, Marie, who is Deaf. As mentioned earlier there were a few learning objectives:
+
+-   _Learn how to apply (design) principles in a design._
+-   _Understand and incorporate user needs into your design._
+-   _Learn how to test and use the results to improve your design._
+
+**Learn how to apply (design) principles in a design**
+
+During the design process, I applied various design principles to create an inclusive and user-centered design for Marie. I considered her specific needs and preferences, such as incorporating visual representations or sound descriptions and accurately labeling speakers within the captions. I also focused on consistency, accuracy, and faithful representation of speech and expressions in the closed captions. These principles helped me create a design that addressed Marie's requirements and provided her with a more meaningful viewing experience.
+
+**Understand and incorporate user needs into your design**
+
+To understand Marie's needs, I conducted interviews and had discussions with her. This allowed me to gather information about her struggles with existing closed captions and the enhancements she desired. I analyzed her feedback and incorporated her suggestions into the design, such as removing speaker names when the speaker keeps talking, playing with the placement of closed captions, and adding visual indications for aggressive screams. By actively involving Marie in the design process and considering her perspective, I ensured that her needs were at the forefront of the design.
+
+**Learn how to test and use the results to improve your design**
+
+I conducted user testing sessions with Marie to gather feedback and insights on the design concepts and prototypes. These sessions helped me identify areas for improvement and validate the effectiveness of the design changes. Marie's feedback was invaluable in shaping the final concept and making improvements, such as refining the placement of closed captions and enhancing the representation of speech tone. Through iterative testing, I was able to refine the design based on real user feedback, ensuring that it met Marie's needs and preferences.
+
+Overall, this design assignment allowed me to apply design principles, incorporate user needs, and utilize testing to improve the design. By working closely with a real user like Marie, I gained valuable insights into designing with and for real people, and I developed a more user-centered approach to design.
