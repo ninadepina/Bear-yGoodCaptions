@@ -161,7 +161,8 @@ names as well.
 I wonder how people in the clip actually speak. As the clip progresses, it becomes harder to see the tone.
 
 Text in all caps can sometimes be too much, but sometimes it's necessary. There are different levels of tone, which 
-I find interesting. How can you represent this, for example with font weights or etc. You should experiment with this.
+I find interesting. How can you represent this, for example with font weights or etc. You should experiment with 
+this.
 
 Nice!!! Well done.
 ```
