@@ -153,16 +153,16 @@ It could also be fun to play with the placement of the closed captions during th
 each other.
 
 It's great how you approached the subtitling, such as transcribing speech like 'Wha--' instead of 'What'. This is 
-really helpful because I can clearly see how quickly people talk to each other. Sometimes, it's difficult for me to 
-see who is speaking. But it's nice that there is still a name there. It might also be fun to play with placement 
-during the scene with Marcus and Sydney. With proper placement, it would be unnecessary to display the characters' 
-names as well.
+really helpful because I can clearly see how quickly people talk to each other. Sometimes, it's difficult for me 
+to see who is speaking. But it's nice that there is still a name there. It might also be fun to play with 
+placement during the scene with Marcus and Sydney. With proper placement, it would be unnecessary to display the 
+characters' names as well.
 
 I wonder how people in the clip actually speak. As the clip progresses, it becomes harder to see the tone.
 
-Text in all caps can sometimes be too much, but sometimes it's necessary. There are different levels of tone, which 
-I find interesting. How can you represent this, for example with font weights or etc. You should experiment with 
-this.
+Text in all caps can sometimes be too much, but sometimes it's necessary. There are different levels of tone, 
+which I find interesting. How can you represent this, for example with font weights or etc. You should experiment 
+with this.
 
 Nice!!! Well done.
 ```
