@@ -27,9 +27,9 @@ different language, there are no closed captions. For example, it might say 'sus
 know it's suspenseful (it's too abstract)?
 
 There's also a cooking show called 'High on the Hog' it's about an African cooking in America, and it's very well 
-subtitled. You can see a man emotionally recounting the history of slavery. When he speaks, the subtitles indicate 
-when he's crying or when his voice is shaky, so you know what he's feeling. Stranger Things is also good, but 
-sometimes they go overboard. For example, they show explosions that are already visible on the screen.
+subtitled. You can see a man emotionally recounting the history of slavery. When he speaks, the subtitles 
+indicate when he's crying or when his voice is shaky, so you know what he's feeling. Stranger Things is also good, 
+but sometimes they go overboard. For example, they show explosions that are already visible on the screen.
 
 For spoken languages, there's a lot of nuance in how things are said and what emotions are conveyed, so there's 
 much more information in spoken language than can be conveyed in subtitles.'
