@@ -58,7 +58,19 @@ She was very open about her deafness and her life with it. We discovered very qu
 
 Read the full transcript from meeting Marie [here](https://github.com/ninadepina/CaptionWizard/blob/main/docs/interview.md).
 
-<details>
+**Things I'll take with me from the meeting:**
+
+1. Marie's preferences and requirements: Marie expressed her desire for more detailed and immersive closed captions. She mentioned the need for captions to include the name of the speaker, their tone, and indications of background noise. She also mentioned that excessive captions can be overwhelming.
+
+2. Challenges faced by Marie: Marie shared her difficulties in experiencing the emotions conveyed by films/series due to the absence of music. She also mentioned struggles in discerning who is saying what when multiple people are speaking and in understanding the tone of the speaker, especially when the speaker is not on screen.
+
+3. Marie's use of podcasts: Marie mentioned that she doesn't listen to podcasts due to their inaccessibility. She prefers reading books over following conversations between two people. This provides insights into her preferred media consumption methods.
+
+4. Positive experience with closed captions: Marie highlighted that she has had positive experiences with closed captions in certain cases, indicating that there are examples of good captioning practices that can be referred to.
+
+These insights from the meeting with Marie will inform the development of a solution that caters to her specific needs and preferences while addressing the challenges she faces.
+
+<details open>
 <summary>Evaluation of the first meeting</summary>
 
 **What went well?**
@@ -107,7 +119,7 @@ In the end, I chose to work with a scene from the series 'The Bear', mainly beca
 
 ## Second meeting with Marie (testing the concept)
 
-<details>
+<details open>
 <summary>Testing do's and don'ts</summary>
 
 Before actually testing something, it's a good idea to create a test plan. This plan will provide guidance throughout the testing and ensures that your main objectives are clearly defined. The test plan consists of an introduction, scenario, things that you want to test, and if wanted you can let your testing subject complete some tasks. Consider what information you want to gather and which components should be tested for that purpose. Develop a scenario that outlines a situation and the user's context, explaining why they would use your product (in this case, an app). Subsequently, devise a set of tasks for your test subject to perform based on the components/features you wish to test (i chose to not do that for this project, since there's not really something to do besides watching a video). Frame each task as a question, avoiding any hints, tips, or instructions within the question itself. Once the test is complete, assess its outcomes and document your findings. Utilize this information to create a plan for enhancing, modifying, or adding specific elements in your next iteration.
@@ -149,19 +161,19 @@ Nice, good.
 In the beginning, I think you had Carmy who was constantly talking, in that case it would be unnecessary to show
 his name all the time.
 
-It could also be fun to play with the placement of the closed captions during the part where two people bump into 
+It could also be fun to play with the placement of the closed captions during the part where two people bump into
 each other.
 
-It's great how you approached the subtitling, such as transcribing speech like 'Wha--' instead of 'What'. This is 
-really helpful because I can clearly see how quickly people talk to each other. Sometimes, it's difficult for me 
-to see who is speaking. But it's nice that there is still a name there. It might also be fun to play with 
-placement during the scene with Marcus and Sydney. With proper placement, it would be unnecessary to display the 
+It's great how you approached the subtitling, such as transcribing speech like 'Wha--' instead of 'What'. This is
+really helpful because I can clearly see how quickly people talk to each other. Sometimes, it's difficult for me
+to see who is speaking. But it's nice that there is still a name there. It might also be fun to play with
+placement during the scene with Marcus and Sydney. With proper placement, it would be unnecessary to display the
 characters' names as well.
 
 I wonder how people in the clip actually speak. As the clip progresses, it becomes harder to see the tone.
 
-Text in all caps can sometimes be too much, but sometimes it's necessary. There are different levels of tone, 
-which I find interesting. How can you represent this, for example with font weights or etc. You should experiment 
+Text in all caps can sometimes be too much, but sometimes it's necessary. There are different levels of tone,
+which I find interesting. How can you represent this, for example with font weights or etc. You should experiment
 with this.
 
 Nice!!! Well done.
@@ -173,7 +185,7 @@ Nice!!! Well done.
 -   Play with placement of closed captions.
 -   Look into more ways to display how loud someone is speaking.
 
-<details>
+<details open>
 <summary>Evaluation of the second meeting</summary>
 
 **What went well?**
